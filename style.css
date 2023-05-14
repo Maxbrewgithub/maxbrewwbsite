@@ -1,0 +1,101 @@
+body {
+  background-color: #f8f8f8;
+  font-family: 'Bruno Ace SC', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  margin: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h2 {
+  font-family: 'Bruno Ace SC', cursive;
+}
+
+/* Default styles for all devices */
+body {
+  background-color: #FFFFFF; /* Light background */
+  color: #000000; /* Dark text */
+}
+
+/* Styles for devices in dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000000; /* Dark background */
+    color: #FFFFFF; /* Light text */
+  }
+}
+
+.social-media-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-media-buttons a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  border-radius: 50%;
+  background-color: #333333;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 50px;
+  transition: all 0.8s ease-in-out;
+}
+
+.social-media-buttons a:hover {
+  transform: scale(1.1);
+}
+
+.logo-image {
+  width: 400%;
+  height: 400%;
+}
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+
